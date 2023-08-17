@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator Segitiga</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Katik</h1>
+    </header>
+
+    <main>
+        <section id="paragraf-pembuka">
+            <p>Hai Sobat, selamat datang di Katik :] <br> Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar.</p>
+        </section>
+
+        <section class="segitiga">
+            <h5>Luas Segitiga</h5>
+        </section>
+
+        <Section>
+            <img class="tengah" src="gambar segitiga.jpg" alt="Gambar Segitiga">
+        </Section>
+
+        <article>
+            <p>Luas Segitiga</p>
+            <p>L = 1/2 x a x t</p>
+            <br>
+            <p>Keterangan:</p>
+            <p>L: Luas segitiga</p>
+            <p>a: Alas segitiga</p>
+            <p>t: Tinggi segitiga</p>
+        </article>
+
+        <hr>
+
+        <section>
+            <h2 class="Hitung-L">Hitung Luas Segitiga</h2>
+
+            <label for="alas">Alas segitiga (dalam cm)</label>
+            <div class="container">
+                <input id="alas" name="display" class="input" type="number">
+            </div>
+
+            <label for="tinggi">Tinggi segitiga (dalam cm)</label>
+            <div class="container">
+                <input id="tinggi" name="display" class="input" type="number">
+            </div>
+
+            <button id="hitung1" onclick="hitungluas()">Hitung</button>
+
+            <div id="output1"></div>
+        </section>
+
+
+        <section class="segitiga">
+            <h5>Keliling Segitiga</h5>
+        </section>
+
+        <Section>
+            <img class="tengah" src="gambar segitiga.jpg" alt="Gambar Segitiga">
+        </Section>
+
+        <article>
+            <p>Keliling Segitiga</p>
+            <p>K = A + B + C</p>
+            <br>
+            <p>Keterangan:</p>
+            <p>A: Sisi A</p>
+            <p>B: Sisi B</p>
+            <p>C: Sisi C</p>
+        </article>
+
+        <hr>
+
+        <section>
+            <h2 class="Hitung-K">Hitung Keliling Segitiga</h2>
+
+            <label for="">Sisi A (dalam cm)</label>
+            <div class="container">
+                <input id="sisiA" name="display" class="input" type="number">
+            </div>
+
+            <label for="">Sisi B (dalam cm)</label>
+            <div class="container">
+                <input id="sisiB" name="display" class="input" type="number">
+            </div>
+
+            <label for="">Sisi C (dalam cm)</label>
+            <div class="container">
+                <input id="sisiC" name="display" class="input" type="number">
+            </div>
+
+            <button id="hitung2" onclick="hitungkeliling()">Hitung</button>
+
+            <div id="output2"></div>
+        </section>
+    </main>
+</body>
+</html>
